@@ -1,0 +1,13 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("file:///D:/BrowserDownload/ChromeDownload/background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1; /* 保证在所有内容下方 */
+  opacity: 0.8; /* 可调整透明度 */
+}
